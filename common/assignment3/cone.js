@@ -15,7 +15,7 @@ function init(Cone-vertex-shader) {
     render(Cone-fragment-shader);
 }
 
-function render() {
+function render(x-shader/x-vertex) {
     gl.clear( gl.COLOR_BUFFER_BIT );
 }
 
